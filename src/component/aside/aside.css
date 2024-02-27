@@ -1,0 +1,5 @@
+.aside {
+    background-color: var(--color-background-dark);
+    color: var(--color-white);
+    padding: 160px 66px;
+}

@@ -1,0 +1,32 @@
+@import url('../../App.css');
+
+.search {
+    position: relative;
+}
+
+.search__icon {
+    background-image: url('./search-icon.svg');
+    mask-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+    position: absolute;
+    top: calc(50% - 20px / 2);
+    left: 10px;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.search__input {
+    padding: 16px 60px 16px 30px;
+    background-color: var(--color-background-light);
+    border: none;
+    border-radius: 5px;
+}
+
+.search__input:focus {
+    outline: none;
+}

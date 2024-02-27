@@ -1,0 +1,29 @@
+.trips__list {
+    display: flex;
+    gap: 60px;
+    max-width: 740px;
+    overflow-X: auto;
+}
+
+.trips__card {
+    border: 1px solid var(--color-background-light);
+    margin-bottom: 16px;
+}
+
+.trips__card:hover {
+    cursor: pointer;
+}
+
+.trips__card-img {
+    width: 100%;
+}
+
+.trips__card-content {
+    padding: 10px;
+}
+
+.content__date {
+    font-size: 14px;
+    color: var(--color-gray);
+    margin-top: 10px;
+}

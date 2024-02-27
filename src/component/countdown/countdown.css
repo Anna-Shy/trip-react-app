@@ -1,0 +1,19 @@
+.countdown{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.countdown__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.count__text-span{
+    font-size: 26px;
+    font-weight: 700;
+}

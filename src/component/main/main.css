@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding: 40px 60px;
+}
+
+.main__title {
+    font-weight: normal;
+}
+
+.main__title-span {
+    font-weight: bold;
+}
+
+.trips {
+    display: flex;
+    gap: 60px;
+}
+
+.trips__btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    font-size: 16px;
+    background-color: var(--color-background-light);
+    border: none;
+}
+
+.trips__btn:hover {
+    cursor: pointer;
+}
+
+.trips__btn-img {
+    width: 30px;
+    height: 30px;
+}

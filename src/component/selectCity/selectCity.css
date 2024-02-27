@@ -1,0 +1,15 @@
+.select-city {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 12px;
+}
+
+.select__labelStar {
+    color: var(--color-red);
+}
+
+.select__option {
+    padding: 10px;
+    border: 1px solid var(--color-gray);
+}
